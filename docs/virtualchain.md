@@ -224,3 +224,5 @@ selects the filename and will atomically move it into place to finish processing
 In `virtualchain/lib/indexer.py`, there is a class called `StateEngine` that contains the core virtualchain state-processing logic. 
 A `StateEngine` instance is what drives the application, via its `build()` method.  Applications should define their RSM state logic
 by creating a subclass of `StateEngine`, in order to gain access to its prior consensus hashes.
+
+TODO finish example
